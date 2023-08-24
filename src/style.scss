@@ -1,0 +1,28 @@
+@import "./styles/normalize1.scss";
+@import "./styles/resets.scss";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 25px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input {
+  &__container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__place {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+}
